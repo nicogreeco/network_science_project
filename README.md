@@ -3,6 +3,9 @@
 #### Overview
 This GitHub repository contains all the materials used in the experimental project for the Network Sciences course at Utrecht University. It includes data, scripts, and a Jupyter notebook for analyzing clustering algorithms applied to Protein-Protein Interaction (PPI) networks.
 
+#### Abstract
+This study assesses the OH-PIN algorithm's performance in detecting overlapping hierarchical modules within an Escherichia coli protein-protein interaction (PPI) network. We compared OH-PIN with the Girvan-Newman and Louvain algorithms, focusing on their ability to identify known protein complexes. The results show that OH-PIN excels in recovering these complexes, especially at lower resolutions, though its computational efficiency poses challenges for larger networks. 
+
 #### Repository Structure
 - **data/**: Contains network data files and clustering results in JSON format.
   - `511145.protein.physical.links.v12.0.txt.gz`: Compressed TSV file from STRING database containing the PPI network of E. Coli.
